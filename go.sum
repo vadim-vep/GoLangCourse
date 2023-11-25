@@ -1,3 +1,9 @@
+github.com/GoesToEleven/dog v0.0.0-20230428023317-90bef1c76cb9 h1:WtQjqEAV0EwbFVvp4ETs4XvRmdE0+r578aLTAnay80Y=
+github.com/GoesToEleven/dog v0.0.0-20230428023317-90bef1c76cb9/go.mod h1:bSJZIYrINAWfFsUPONiX6V8GGsCFquPtn5yE6DFvIkE=
+github.com/GoesToEleven/puppy v1.2.0 h1:oH8CmnGauWjv0RmtYu2saAwRaB6MOfx6L+SPZnWmBfk=
+github.com/GoesToEleven/puppy v1.2.0/go.mod h1:WobEgPdFB6u5c9xLvtp3KOhVIdHaYYpH6pZVOcLq0+w=
+github.com/GoesToEleven/puppy v1.3.0 h1:6kvL9k6x8STNArAn3VVdQAye+5AOM3SbxV0uPdq5xn0=
+github.com/GoesToEleven/puppy v1.3.0/go.mod h1:WobEgPdFB6u5c9xLvtp3KOhVIdHaYYpH6pZVOcLq0+w=
 github.com/vadim-vep/puppy v0.0.0-20231121153033-95d187a394b6 h1:LauyUGqS4TCDGHcj3DW8osB7fQUKJZKIIXDX9WDdrT4=
 github.com/vadim-vep/puppy v0.0.0-20231121153033-95d187a394b6/go.mod h1:wclz4rA51JutB6wPU1szYtmP3cdB41GZsE6EB8tKcMI=
 github.com/vadim-vep/puppy v1.0.2-0.20231122163310-455978085ce4 h1:3FEuMnaUauJLvXDiOdv8QcVReEyARde+H6Qk7LM1qTo=
