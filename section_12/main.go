@@ -173,6 +173,7 @@ func main() {
 }
 */
 
+/*
 package main
 
 import "fmt"
@@ -185,3 +186,80 @@ func main() {
 		fmt.Println(z)
 	}
 }
+*/
+
+/*
+package main
+
+import "fmt"
+
+func main() {
+	for i := 0; i < 5; i++ {
+		fmt.Printf("Outer Loop iteration %v \n", i+1)
+		for z := 0; z < 5; z++ {
+			fmt.Printf("\tInner loop iteration %v \n", z+1)
+		}
+	}
+}
+*/
+
+/*
+package main
+
+import "fmt"
+
+func main() {
+	xi := []int{42, 43, 44, 45, 46}
+	i := 0
+	for range xi { //alt:  for i,v:= range xi {fmt.Println (i,v)}
+		fmt.Printf("value from slice is %v and its index is %v\n", xi[i], i)
+		i++
+	}
+
+}
+*/
+
+/*
+package main
+
+import "fmt"
+
+func main() {
+	m := map[string]int{
+		"James":      42,
+		"Moneypenny": 32,
+	}
+
+	for key, value := range m {
+		fmt.Printf("Key is %v and value is %v \n", key, value)
+	}
+	fmt.Println("============")
+	age1 := m["James"]
+	age2 := m["Q"]
+	fmt.Printf("Age of Bond is %v \n", age1)
+	fmt.Printf("Age of Q is %v \n", age2)
+
+	if v, ok := m["Q"]; !ok {
+		fmt.Println("Age of Q is not specified and here's 0 value of Q ", v)
+	}
+
+}
+
+*/
+
+/*
+package main
+
+import (
+	"fmt"
+	"math/rand"
+)
+
+func main() {
+	for i := 0; i < 100; i++ {
+		if x := rand.Intn(5); x == 3 {
+			fmt.Println("X equals 3")
+		}
+	}
+}
+*/
