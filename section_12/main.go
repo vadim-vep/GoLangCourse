@@ -222,7 +222,10 @@ func main() {
 /*
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 func main() {
 	m := map[string]int{
@@ -242,12 +245,9 @@ func main() {
 	if v, ok := m["Q"]; !ok {
 		fmt.Println("Age of Q is not specified and here's 0 value of Q ", v)
 	}
-
 }
-
 */
 
-/*
 package main
 
 import (
@@ -262,4 +262,3 @@ func main() {
 		}
 	}
 }
-*/
