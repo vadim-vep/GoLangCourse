@@ -102,10 +102,21 @@ func main() {
 		friends   map[string]int
 		favDrinks []string
 	}{
-		first:     "Vadym",
-		friends:   map[string]int{"Pasisnychenko": 4, "Sanyok": 3, "I'm forever alone": 100},
-		favDrinks: []string{"tequila", "beer with vodka", "beer"},
+		first: "Vadym",
+		friends: map[string]int{
+			"Pasisnychenko":     4,
+			"Sanyok":            3,
+			"I'm forever alone": 100,
+		},
+		favDrinks: []string{
+			"tequila",
+			"beer with vodka",
+			"beer",
+		},
 	}
 
 	fmt.Println(p1)
+	for _, v := range p1.favDrinks {
+		fmt.Println(v)
+	}
 }
